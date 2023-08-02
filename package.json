@@ -1,6 +1,6 @@
 {
   "name": "upload-notion-images-to-cloudinary-new-cloudinary-url",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Script to move images in Notion to Cloudinary",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
