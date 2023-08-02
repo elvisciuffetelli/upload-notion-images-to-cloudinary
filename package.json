@@ -1,6 +1,6 @@
 {
-  "name": "upload-notion-images-to-cloudinary",
-  "version": "1.2.0",
+  "name": "upload-notion-images-to-cloudinary-new-cloudinary-url",
+  "version": "1.2.2",
   "description": "Script to move images in Notion to Cloudinary",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -24,11 +24,7 @@
     "dist",
     "bin"
   ],
-  "repository": "https://github.com/guillermodlpa/upload-notion-images-to-cloudinary.git",
-  "author": {
-    "name": "Guillermo de la Puente",
-    "url": "https://guillermodlpa.com"
-  },
+  "repository": "https://github.com/elvisciuffetelli/upload-notion-images-to-cloudinary.git",
   "sideEffects": false,
   "bin": {
     "upload-notion-images-to-cloudinary": "./bin/upload-notion-images-to-cloudinary.cjs"

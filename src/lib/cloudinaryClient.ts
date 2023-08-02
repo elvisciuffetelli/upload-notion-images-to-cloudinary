@@ -6,8 +6,8 @@ export async function config({
   // cloudinary://API_KEY:API_SECRET@CLOUD_NAME
   cloudinaryUrl: string;
 }) {
-  const urlRegex =
-    /^cloudinary:\/\/([a-z0-9-_]+):([a-z0-9-_]+)@([a-z0-9-_]+)$/i;
+  const urlRegex = /^cloudinary:\/\/(\d+):([a-zA-Z0-9-_]+)@([a-zA-Z0-9-_]+\/[a-zA-Z0-9-_]+)$/i;
+  
   if (!urlRegex.test(cloudinaryUrl)) {
     throw new Error(
       `Invalid Cloudinary URL provided. It should match ${urlRegex.toString()}`
